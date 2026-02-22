@@ -1,0 +1,32 @@
+# ---- Core ----
+numpy==1.26.4
+scipy==1.11.4
+
+# ---- TensorFlow / Keras (CNN) ----
+tensorflow==2.19.0
+keras==3.12.1
+ml-dtypes==0.5.4
+
+# ---- PyTorch (CPU only, safe for laptops) ----
+torch==2.1.2+cpu
+torchvision==0.16.2+cpu
+torchaudio==2.1.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# ---- YOLO / Vision ----
+ultralytics==8.1.7
+opencv-python==4.9.0.80
+pillow==10.2.0
+
+# ---- Visualization ----
+matplotlib==3.8.2
+
+# ---- Utilities ----
+tqdm
+pyyaml
+fastapi
+uvicorn[standard]
+streamlit requests
+python-multipart
+typing-extensions
+mediapipe==0.9.1
